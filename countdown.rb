@@ -10,8 +10,7 @@ def countdown(count)
 end
 
 def countdown_with_sleep(x)
-  sleep 10
-  countdown(count)
+  sleep 10 countdown(count)
   # count = 10
   # while count > 0 do
   #   puts "#{count} SECONDS(S)!"
